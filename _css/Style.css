@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.menu-container {
+    background-color: rgb(129, 9, 129);
+    text-align: center;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+}
+
+.menu img {
+    width: 200px;
+    height: 185px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .menu li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
