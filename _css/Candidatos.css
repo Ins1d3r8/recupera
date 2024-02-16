@@ -44,7 +44,7 @@ p {
 a {
     margin: 5px 0;
     text-decoration: none;
-    padding-left: 85px;
+    padding-left: 35%;
     padding-top: 7px;
     color: blueviolet;
 
@@ -68,11 +68,16 @@ a {
     font-size: 25px;
 }
 
-.menu a {
-    margin-left: -655px;
+.inicio-button {
     margin-top: 15px;
+    margin-left: -40%;
     position: absolute;
     color: aliceblue;
+    padding-left: 10px;
+}
+
+.inicio-button:hover {
+    color: darkorchid;
 }
 
 .menu li a {
